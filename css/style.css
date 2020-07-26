@@ -1,0 +1,26 @@
+/* Master style sheet*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&family=Roboto&display=swap');
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card-white.css');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: rgb(50, 50, 50);
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	color: rgb(200, 200, 200);
+	margin-top: 40px;
+}
+
+a {
+	text-decoration: none;
+}
